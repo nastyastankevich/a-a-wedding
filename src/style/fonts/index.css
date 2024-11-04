@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Old Standart';
+    src: url('./OldStandardTT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Old Standart';
+    src: url('./OldStandardTT-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Old Standart';
+    src: url('./OldStandardTT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Euphoria Script';
+    src: url('./EuphoriaScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('./GreatVibes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
