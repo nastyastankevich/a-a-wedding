@@ -8,7 +8,7 @@ const Header = () => {
     { code: 'en', label: t('en') },
     { code: 'ru', label: t('ru') },
   ]
-  const MENU = ['ourStory', 'celebration', 'gifts', 'dressCode']
+  const MENU = ['ourStory', 'celebration', 'gifts', 'dressCode', 'contacts']
   const navigate = useNavigate()
 
   const [isOpen, setIsOpen] = useState(false)
@@ -32,10 +32,10 @@ const Header = () => {
     </select>
   )
   return (
-    <header className="fixed w-full h-16 flex items-center gap-4 py-4 px-4 md:px-10 bg-black text-white bg-opacity-40 z-20">
+    <header className="fixed w-full h-16 flex items-center gap-4 py-4 px-4 lg:px-10 bg-black text-white bg-opacity-40 z-20">
       <div className="w-full max-w-desktop flex justify-between">
         <div className="flex items-center">Andrzej & Anastasiya</div>
-        <div className="hidden md:flex gap-4 items-center">
+        <div className="hidden lg:flex gap-4 items-center">
           {MENU.map((item) => (
             <a key={item} className="hover:opacity-70" href={`#${item}`}>
               {t(item)}
@@ -43,18 +43,18 @@ const Header = () => {
           ))}
           <LangSelect />
         </div>
-        <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-white text-3xl md:hidden focus:outline-none">
+        <div className="lg:hidden">
+          <button onClick={toggleMenu} className="text-white text-3xl lg:hidden focus:outline-none">
             ☰
           </button>
           <ul
             className={`fixed top-0 left-0 w-full h-full bg-gray-800 flex flex-col items-center justify-center space-y-6 transition-transform transform ${
               isOpen ? 'translate-x-0' : '-translate-x-full'
-            } md:static md:flex md:flex-row md:space-y-0 md:space-x-6 md:bg-transparent md:translate-x-0`}
+            } lg:static lg:flex lg:flex-row lg:space-y-0 lg:space-x-6 lg:bg-transparent lg:translate-x-0`}
           >
             <button
               onClick={toggleMenu}
-              className="absolute top-4 left-4 text-white text-3xl md:hidden focus:outline-none"
+              className="absolute top-4 left-4 text-white text-3xl lg:hidden focus:outline-none"
             >
               ✕
             </button>
