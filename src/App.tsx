@@ -11,8 +11,7 @@ function App() {
       <ParallaxProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/:lang/*" element={<Main />} />
-            <Route path="/" element={<Main />} />
+            <Route path="*" element={<Main />} />
           </Routes>
         </BrowserRouter>
       </ParallaxProvider>

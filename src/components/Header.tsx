@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { useNavigate } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 
 const Header = () => {
   const { i18n, t } = useTranslation()
@@ -9,8 +9,8 @@ const Header = () => {
     { code: 'ru', label: t('ru') },
   ]
   const MENU = ['ourStory', 'celebration', 'gifts', 'dressCode', 'contacts']
-  const navigate = useNavigate()
 
+  const [, setSearchParams] = useSearchParams()
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleMenu = () => {
@@ -19,7 +19,9 @@ const Header = () => {
 
   const onChangeLang = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const lang = e.target.value
-    navigate(lang === 'ru' ? '/' : `/${lang}`)
+    const params = new URLSearchParams(location.search)
+    params.set('lang', lang)
+    setSearchParams(params.toString())
   }
 
   const LangSelect = () => (

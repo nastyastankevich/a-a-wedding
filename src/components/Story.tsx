@@ -21,10 +21,10 @@ const Story = () => {
       </div>
       <div className="max-w-desktop mx-auto grid grid-cols-1 lg:grid-cols-2 pt-8 z-10">
         {/*FIRST*/}
-        <div className="lg:border-r border-emerald-700 lg:mt-10 pb-4 lg:pr-8 text-centerlg:text-right relative flex flex-col items-center lg:items-end">
+        <div className="lg:border-r border-emerald-700 lg:mt-10 pb-4 lg:pr-8 text-center lg:text-right relative flex flex-col items-center lg:items-end">
           <p>11.08.2022</p>
-          <h3 className="text-2xl text-stone-900 font-bold">This is a match!</h3>
-          <p className="italic pt-1 max-w-[80%] lg:max-w-[66%] text-center">
+          <h3 className="text-2xl md:text-3xl text-stone-900 font-bold">This is a match!</h3>
+          <p className="italic pt-1 max-w-[80%] lg:max-w-[70%] text-center lg:text-right">
             {t('story1')}
             <br />
             {t('story2')}
@@ -47,8 +47,8 @@ const Story = () => {
         </div>
         <div className="lg:border-l border-emerald-700 pt-12 lg:pt-32 pb-4 lg:pl-8 relative flex flex-col text-center lg:text-left items-center lg:items-start">
           <p>11.08.2024</p>
-          <h3 className="text-2xl text-stone-900 font-bold">She said YES!</h3>
-          <p className="italic pt-1 max-w-[80%] lg:max-w-[66%]">
+          <h3 className="text-2xl md:text-3xl text-stone-900 font-bold">She said YES!</h3>
+          <p className="italic pt-1 max-w-[80%] lg:max-w-[70%]">
             {t('story3')}
             <br />
             {t('story4')}
@@ -66,8 +66,8 @@ const Story = () => {
         {/*THIRD*/}
         <div className="lg:border-r border-emerald-700 py-12 lg:py-32 lg:pr-8 text-center lg:text-right relative flex flex-col items-center lg:items-end">
           <p>26.10.2024</p>
-          <h3 className="text-2xl text-stone-900 font-bold">{t('story5')}</h3>
-          <p className="italic pt-1 max-w-[80%] lg:max-w-[66%]">
+          <h3 className="text-2xl md:text-3xl text-stone-900 font-bold">{t('story5')}</h3>
+          <p className="italic pt-1 max-w-[80%] lg:max-w-[70%]">
             {t('story6')}
             <br />
             {t('story7')}
@@ -94,8 +94,8 @@ const Story = () => {
         </div>
         <div className="pt-6 lg:pt-0 pb-4 lg:pl-8 flex flex-col items-center lg:items-start text-center lg:text-left">
           <p>31.05.2025</p>
-          <h3 className="text-2xl text-stone-900 font-bold">{t('story8')}</h3>
-          <p className="italic pt-1 max-w-[80%] lg:max-w-[66%]">
+          <h3 className="text-2xl md:text-3xl text-stone-900 font-bold">{t('story8')}</h3>
+          <p className="italic pt-1 max-w-[80%] lg:max-w-[70%]">
             {t('story9')}
             <br />
             {t('story10')}
