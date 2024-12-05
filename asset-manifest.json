@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/a-a-wedding/static/css/main.b8d8df03.css",
-    "main.js": "/a-a-wedding/static/js/main.87c99692.js",
+    "main.css": "/a-a-wedding/static/css/main.ae5f531e.css",
+    "main.js": "/a-a-wedding/static/js/main.25ef08b0.js",
     "static/js/453.a1bbb3f1.chunk.js": "/a-a-wedding/static/js/453.a1bbb3f1.chunk.js",
     "static/media/royal-silva.png": "/a-a-wedding/static/media/royal-silva.5b7b7ea50e0285338e8a.png",
-    "static/media/hero.jpg": "/a-a-wedding/static/media/hero.249ea19fbb86b6bd2839.jpg",
     "static/media/arch.jpg": "/a-a-wedding/static/media/arch.0beec8d386b8ce2425fe.jpg",
     "static/media/wedding.jpg": "/a-a-wedding/static/media/wedding.b02e859005b111b2904a.jpg",
     "static/media/proposal.jpg": "/a-a-wedding/static/media/proposal.c808fa7949ac87af5510.jpg",
     "static/media/green-decor.png": "/a-a-wedding/static/media/green-decor.c49b2a2fdd0b5b94b293.png",
+    "static/media/hero.jpg": "/a-a-wedding/static/media/hero.31c268f0f1e907412a6c.jpg",
     "static/media/GreatVibes-Regular.ttf": "/a-a-wedding/static/media/GreatVibes-Regular.f51f1a4f2cd0c9611249.ttf",
     "static/media/OldStandardTT-Italic.ttf": "/a-a-wedding/static/media/OldStandardTT-Italic.7ffe10d3c9220e1d4207.ttf",
     "static/media/OldStandardTT-Bold.ttf": "/a-a-wedding/static/media/OldStandardTT-Bold.5d8bf676686d649be60b.ttf",
@@ -38,12 +38,12 @@
     "static/media/slick.woff": "/a-a-wedding/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/a-a-wedding/index.html",
     "static/media/getFetch.cjs": "/a-a-wedding/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.b8d8df03.css.map": "/a-a-wedding/static/css/main.b8d8df03.css.map",
-    "main.87c99692.js.map": "/a-a-wedding/static/js/main.87c99692.js.map",
+    "main.ae5f531e.css.map": "/a-a-wedding/static/css/main.ae5f531e.css.map",
+    "main.25ef08b0.js.map": "/a-a-wedding/static/js/main.25ef08b0.js.map",
     "453.a1bbb3f1.chunk.js.map": "/a-a-wedding/static/js/453.a1bbb3f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8d8df03.css",
-    "static/js/main.87c99692.js"
+    "static/css/main.ae5f531e.css",
+    "static/js/main.25ef08b0.js"
   ]
 }
