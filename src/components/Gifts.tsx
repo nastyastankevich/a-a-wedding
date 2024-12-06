@@ -18,7 +18,7 @@ const Gifts = () => {
       <h2 className="text-5xl lg:text-8xl font-great-vibes text-center">{t('gifts')}</h2>
       <div className="max-w-desktop mx-auto pt-10 text-center">
         <p className="pb-6">{t('mainGift')}</p>
-        <img src={Envelop} alt="Envelop" className="w-3/4 mx-auto" />
+        <img src={Envelop} alt="Envelop" className="sm:w-3/4 mx-auto" />
         {!hideInfo && <p className="pt-6">{t('flowers')}</p>}
       </div>
     </div>
