@@ -35,7 +35,7 @@ const Header = () => {
   )
   return (
     <header className="fixed w-full h-16 flex items-center gap-4 py-4 px-4 lg:px-10 bg-black text-white bg-opacity-40 z-20">
-      <div className="w-full max-w-desktop flex justify-between">
+      <div className="w-full max-w-desktop flex justify-between mx-auto">
         <div className="flex items-center">Andrzej & Anastasiya</div>
         <div className="hidden lg:flex gap-4 items-center">
           {MENU.map((item) => (

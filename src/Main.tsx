@@ -15,7 +15,6 @@ const App = () => {
 
   useEffect(() => {
     const lang = searchParams.get('lang') || ''
-    console.log(lang)
     i18n.changeLanguage(['en', 'ru'].includes(lang) ? lang : 'ru')
   }, [searchParams])
 
