@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/a-a-wedding/static/css/main.da15bb37.css",
-    "main.js": "/a-a-wedding/static/js/main.3e4cdada.js",
+    "main.js": "/a-a-wedding/static/js/main.0015036c.js",
     "static/js/453.a1bbb3f1.chunk.js": "/a-a-wedding/static/js/453.a1bbb3f1.chunk.js",
-    "static/media/royal-silva.png": "/a-a-wedding/static/media/royal-silva.e4399eba1a284c7c71ed.png",
-    "static/media/hero.jpg": "/a-a-wedding/static/media/hero.c187057cfb86f8e7755e.jpg",
     "static/media/GreatVibes-Regular.ttf": "/a-a-wedding/static/media/GreatVibes-Regular.f51f1a4f2cd0c9611249.ttf",
-    "static/media/arch.jpg": "/a-a-wedding/static/media/arch.25908ababc45d496d022.jpg",
-    "static/media/wedding.jpg": "/a-a-wedding/static/media/wedding.9d9eedd521499d18bfe0.jpg",
-    "static/media/proposal.jpg": "/a-a-wedding/static/media/proposal.8f8d6a76d0e12644cbdc.jpg",
+    "static/media/royal-silva.png": "/a-a-wedding/static/media/royal-silva.d6829dc4f827ee475f7c.png",
+    "static/media/hero.jpg": "/a-a-wedding/static/media/hero.c3eb425f2db58b1229b0.jpg",
+    "static/media/arch.jpg": "/a-a-wedding/static/media/arch.1b16975be207ed40ab60.jpg",
     "static/media/OldStandardTT-Italic.ttf": "/a-a-wedding/static/media/OldStandardTT-Italic.7ffe10d3c9220e1d4207.ttf",
     "static/media/OldStandardTT-Bold.ttf": "/a-a-wedding/static/media/OldStandardTT-Bold.5d8bf676686d649be60b.ttf",
     "static/media/OldStandardTT-Regular.ttf": "/a-a-wedding/static/media/OldStandardTT-Regular.cf7d4d01f58c621920a4.ttf",
-    "static/media/match.jpg": "/a-a-wedding/static/media/match.657b738937181f96b63c.jpg",
+    "static/media/proposal.jpg": "/a-a-wedding/static/media/proposal.a97bfae7792217375957.jpg",
+    "static/media/wedding.jpg": "/a-a-wedding/static/media/wedding.c5803fd5854e889561ff.jpg",
     "static/media/green-decor.png": "/a-a-wedding/static/media/green-decor.9425578c11327e36b772.png",
     "static/media/black2.jpg": "/a-a-wedding/static/media/black2.156e6724b08f4ee34d62.jpg",
     "static/media/dress7.jpg": "/a-a-wedding/static/media/dress7.a3bfdfb015e5726aa0e6.jpg",
@@ -26,6 +25,7 @@
     "static/media/dress4.jpg": "/a-a-wedding/static/media/dress4.a6a1c8a82b3d5aac0d77.jpg",
     "static/media/suit1.jpg": "/a-a-wedding/static/media/suit1.ebd878e73128a8e665a9.jpg",
     "static/media/dress5.jpg": "/a-a-wedding/static/media/dress5.b5a454990636dc86c169.jpg",
+    "static/media/match.jpg": "/a-a-wedding/static/media/match.f024b63bfbe06d82329d.jpg",
     "static/media/dress6.jpg": "/a-a-wedding/static/media/dress6.8b9b32f3e2ad7f6987c3.jpg",
     "static/media/suit2.jpg": "/a-a-wedding/static/media/suit2.054e47d881c5ef8b8637.jpg",
     "static/media/dress1.jpg": "/a-a-wedding/static/media/dress1.10ad457101bca28a534f.jpg",
@@ -40,11 +40,11 @@
     "index.html": "/a-a-wedding/index.html",
     "static/media/getFetch.cjs": "/a-a-wedding/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.da15bb37.css.map": "/a-a-wedding/static/css/main.da15bb37.css.map",
-    "main.3e4cdada.js.map": "/a-a-wedding/static/js/main.3e4cdada.js.map",
+    "main.0015036c.js.map": "/a-a-wedding/static/js/main.0015036c.js.map",
     "453.a1bbb3f1.chunk.js.map": "/a-a-wedding/static/js/453.a1bbb3f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da15bb37.css",
-    "static/js/main.3e4cdada.js"
+    "static/js/main.0015036c.js"
   ]
 }
